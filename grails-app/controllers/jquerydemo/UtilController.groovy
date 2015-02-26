@@ -1,5 +1,8 @@
 package jquerydemo
 
+import com.google.gson.JsonObject
+import grails.converters.JSON
+
 class UtilController {
 
     static defaultAction = "validationPluginDemo"
@@ -21,6 +24,5 @@ class UtilController {
     }
 
     def JSONDemo(){
-
     }
 }

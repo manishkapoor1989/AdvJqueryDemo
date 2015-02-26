@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4154eee6-0c36-408c-9851-3e692881c4a3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/util/JSONDemo.gsp" afterPath="$PROJECT_DIR$/grails-app/views/util/JSONDemo.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/jquerydemo/UtilController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/jquerydemo/UtilController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
     </list>
     <ignored path="JqueryDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,8 +72,10 @@
       <file leaf-file-name="UtilController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/jquerydemo/UtilController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="16" selection-start="318" selection-end="326" vertical-scroll-proportion="-14.347826" vertical-offset="0" max-vertical-offset="480">
-              <folding />
+            <state line="26" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="-16.956522" vertical-offset="0" max-vertical-offset="510">
+              <folding>
+                <element signature="e#20#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,10 +89,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSONDemo.gsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="JSONDemo.gsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/util/JSONDemo.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
+            <state line="17" column="30" selection-start="382" selection-end="413" vertical-scroll-proportion="0.64285713" vertical-offset="21" max-vertical-offset="630">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="35" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1845">
               <folding />
             </state>
           </provider>
@@ -99,15 +111,26 @@
         <entry file="file://$PROJECT_DIR$/grails-app/views/util/validationPluginDemo.gsp">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="930">
-              <folding />
+              <folding>
+                <marker date="1424945340892" expanded="true" signature="634:1563" placeholder="{...}" />
+                <marker date="1424945340892" expanded="true" signature="668:1554" placeholder="{...}" />
+                <marker date="1424945340892" expanded="true" signature="689:1044" placeholder="{...}" />
+                <marker date="1424945340892" expanded="true" signature="713:765" placeholder="{&quot;required&quot;: true...}" />
+                <marker date="1424945340892" expanded="true" signature="788:917" placeholder="{&quot;required&quot;: true...}" />
+                <marker date="1424945340892" expanded="true" signature="943:1030" placeholder="{&quot;required&quot;: true...}" />
+                <marker date="1424945340892" expanded="true" signature="1067:1544" placeholder="{...}" />
+                <marker date="1424945340892" expanded="true" signature="1091:1166" placeholder="{&quot;required&quot;: &quot;Please enter your name.&quot;...}" />
+                <marker date="1424945340892" expanded="true" signature="1189:1371" placeholder="{&quot;required&quot;: &quot;Please enter your age.&quot;...}" />
+                <marker date="1424945340892" expanded="true" signature="1397:1530" placeholder="{&quot;required&quot;: &quot;Please anter your salary.&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="callBackDemo.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="callBackDemo.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/util/callBackDemo.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="655" selection-end="655" vertical-scroll-proportion="1.1126374" vertical-offset="0" max-vertical-offset="1320">
+            <state line="39" column="34" selection-start="1005" selection-end="1005" vertical-scroll-proportion="-3.8297873" vertical-offset="405" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
@@ -132,10 +155,11 @@
         <option value="$PROJECT_DIR$/grails-app/views/utils/validationPluginDemo.gsp" />
         <option value="$PROJECT_DIR$/grails-app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/grails-app/controllers/jquerydemo/UtilsController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/jquerydemo/UtilController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/util/validationPluginDemo.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/util/JSONDemo.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/util/callBackDemo.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/jquerydemo/UtilController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/util/JSONDemo.gsp" />
       </list>
     </option>
   </component>
@@ -286,6 +310,64 @@
               <option name="myItemId" value="JqueryDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-2.4.4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JqueryDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-2.4.4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gson-2.2.4.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JqueryDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-2.4.4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gson-2.2.4.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JqueryDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -409,6 +491,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JqueryDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JqueryDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -487,7 +587,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JqueryDemoWithGrails2.2.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../media-iq" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -734,7 +834,7 @@
       <workItem from="1424760304977" duration="6372000" />
       <workItem from="1424848870247" duration="2910000" />
       <workItem from="1424851803674" duration="4910000" />
-      <workItem from="1424942001707" duration="6176000" />
+      <workItem from="1424942001707" duration="13845000" />
     </task>
     <task id="LOCAL-00001" summary="Added Validation plugin Demo and Call Back Demo">
       <created>1424948609903</created>
@@ -744,14 +844,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25996000" />
+    <option name="totallyTimeSpent" value="33665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924962" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924962" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -769,6 +869,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -781,7 +882,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -832,14 +932,27 @@
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/jquerydemo/UtilController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="20" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="375">
-          <folding />
+          <folding>
+            <element signature="e#20#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/util/validationPluginDemo.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="33" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1020">
-          <folding />
+          <folding>
+            <marker date="1424945340892" expanded="true" signature="634:1563" placeholder="{...}" />
+            <marker date="1424945340892" expanded="true" signature="668:1554" placeholder="{...}" />
+            <marker date="1424945340892" expanded="true" signature="689:1044" placeholder="{...}" />
+            <marker date="1424945340892" expanded="true" signature="713:765" placeholder="{&quot;required&quot;: true...}" />
+            <marker date="1424945340892" expanded="true" signature="788:917" placeholder="{&quot;required&quot;: true...}" />
+            <marker date="1424945340892" expanded="true" signature="943:1030" placeholder="{&quot;required&quot;: true...}" />
+            <marker date="1424945340892" expanded="true" signature="1067:1544" placeholder="{...}" />
+            <marker date="1424945340892" expanded="true" signature="1091:1166" placeholder="{&quot;required&quot;: &quot;Please enter your name.&quot;...}" />
+            <marker date="1424945340892" expanded="true" signature="1189:1371" placeholder="{&quot;required&quot;: &quot;Please enter your age.&quot;...}" />
+            <marker date="1424945340892" expanded="true" signature="1397:1530" placeholder="{&quot;required&quot;: &quot;Please anter your salary.&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -893,14 +1006,27 @@
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/jquerydemo/UtilController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
-          <folding />
+          <folding>
+            <element signature="e#20#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/util/validationPluginDemo.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="18" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1020">
-          <folding />
+          <folding>
+            <marker date="1424945340892" expanded="true" signature="634:1563" placeholder="{...}" />
+            <marker date="1424945340892" expanded="true" signature="668:1554" placeholder="{...}" />
+            <marker date="1424945340892" expanded="true" signature="689:1044" placeholder="{...}" />
+            <marker date="1424945340892" expanded="true" signature="713:765" placeholder="{&quot;required&quot;: true...}" />
+            <marker date="1424945340892" expanded="true" signature="788:917" placeholder="{&quot;required&quot;: true...}" />
+            <marker date="1424945340892" expanded="true" signature="943:1030" placeholder="{&quot;required&quot;: true...}" />
+            <marker date="1424945340892" expanded="true" signature="1067:1544" placeholder="{...}" />
+            <marker date="1424945340892" expanded="true" signature="1091:1166" placeholder="{&quot;required&quot;: &quot;Please enter your name.&quot;...}" />
+            <marker date="1424945340892" expanded="true" signature="1189:1371" placeholder="{&quot;required&quot;: &quot;Please enter your age.&quot;...}" />
+            <marker date="1424945340892" expanded="true" signature="1397:1530" placeholder="{&quot;required&quot;: &quot;Please anter your salary.&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -949,14 +1075,27 @@
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/jquerydemo/UtilController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
-          <folding />
+          <folding>
+            <element signature="e#20#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/util/validationPluginDemo.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="28" selection-start="995" selection-end="995" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1110">
-          <folding />
+          <folding>
+            <marker date="1424945340892" expanded="true" signature="634:1563" placeholder="{...}" />
+            <marker date="1424945340892" expanded="true" signature="668:1554" placeholder="{...}" />
+            <marker date="1424945340892" expanded="true" signature="689:1044" placeholder="{...}" />
+            <marker date="1424945340892" expanded="true" signature="713:765" placeholder="{&quot;required&quot;: true...}" />
+            <marker date="1424945340892" expanded="true" signature="788:917" placeholder="{&quot;required&quot;: true...}" />
+            <marker date="1424945340892" expanded="true" signature="943:1030" placeholder="{&quot;required&quot;: true...}" />
+            <marker date="1424945340892" expanded="true" signature="1067:1544" placeholder="{...}" />
+            <marker date="1424945340892" expanded="true" signature="1091:1166" placeholder="{&quot;required&quot;: &quot;Please enter your name.&quot;...}" />
+            <marker date="1424945340892" expanded="true" signature="1189:1371" placeholder="{&quot;required&quot;: &quot;Please enter your age.&quot;...}" />
+            <marker date="1424945340892" expanded="true" signature="1397:1530" placeholder="{&quot;required&quot;: &quot;Please anter your salary.&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -998,7 +1137,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/js/jquery/jquery-1.10.2.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="614" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="614">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/js/jquery/jquery-1.10.2.js">
@@ -1059,13 +1202,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/jquerydemo/UtilController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="16" selection-start="318" selection-end="326" vertical-scroll-proportion="-14.347826" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="7" selection-start="1398" selection-end="1398" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="495">
@@ -1076,14 +1212,18 @@
     <entry file="file://$PROJECT_DIR$/grails-app/views/util/validationPluginDemo.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/util/JSONDemo.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="626">
-          <folding />
+          <folding>
+            <marker date="1424945340892" expanded="true" signature="634:1563" placeholder="{...}" />
+            <marker date="1424945340892" expanded="true" signature="668:1554" placeholder="{...}" />
+            <marker date="1424945340892" expanded="true" signature="689:1044" placeholder="{...}" />
+            <marker date="1424945340892" expanded="true" signature="713:765" placeholder="{&quot;required&quot;: true...}" />
+            <marker date="1424945340892" expanded="true" signature="788:917" placeholder="{&quot;required&quot;: true...}" />
+            <marker date="1424945340892" expanded="true" signature="943:1030" placeholder="{&quot;required&quot;: true...}" />
+            <marker date="1424945340892" expanded="true" signature="1067:1544" placeholder="{...}" />
+            <marker date="1424945340892" expanded="true" signature="1091:1166" placeholder="{&quot;required&quot;: &quot;Please enter your name.&quot;...}" />
+            <marker date="1424945340892" expanded="true" signature="1189:1371" placeholder="{&quot;required&quot;: &quot;Please enter your age.&quot;...}" />
+            <marker date="1424945340892" expanded="true" signature="1397:1530" placeholder="{&quot;required&quot;: &quot;Please anter your salary.&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1103,7 +1243,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/util/callBackDemo.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="655" selection-end="655" vertical-scroll-proportion="1.1126374" vertical-offset="0" max-vertical-offset="1320">
+        <state line="39" column="34" selection-start="1005" selection-end="1005" vertical-scroll-proportion="-3.8297873" vertical-offset="405" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gvm/grails/2.4.4/lib/com.google.code.gson/gson/jars/gson-2.2.4.jar!/com/google/gson/JsonObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="164" selection-end="164" vertical-scroll-proportion="0.12953368" vertical-offset="0" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="5" selection-start="3185" selection-end="3185" vertical-scroll-proportion="0.5686901" vertical-offset="2239" max-vertical-offset="2865">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="35" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/jquerydemo/UtilController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="-16.956522" vertical-offset="0" max-vertical-offset="510">
+          <folding>
+            <element signature="e#20#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/util/JSONDemo.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="30" selection-start="382" selection-end="413" vertical-scroll-proportion="0.64285713" vertical-offset="21" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
