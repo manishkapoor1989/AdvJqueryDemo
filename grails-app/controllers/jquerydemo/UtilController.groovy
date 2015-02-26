@@ -37,7 +37,7 @@ class UtilController {
         Boolean isAllowed = params.boolean('isAllowed')
         List<String> names = ['Rohan', 'Vivek','Rohit','Puneet','Roni','Jeevesh']
         String errorMessage
-        throw new Exception("hahahaha")
+//        throw new Exception("hahahaha")
         if(isAllowed){
             String name = names.get(new Random().nextInt(names.size()))
             render(template: 'name', model: [name:name])
