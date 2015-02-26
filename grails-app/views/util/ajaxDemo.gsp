@@ -16,6 +16,10 @@
 <a href="#createCompanyModal" id="showNameLink2">Show Random Name (error)</a>
 <br/>
 <a href="#createCompanyModal" id="showNameLink3">Show Random Name($.get)</a>
+<br/>
+<a href="#createCompanyModal" id="showNameLink4">Show Random Name($.load)</a>
+<br/>
+<a href="#createCompanyModal" id="showNameLink5">Show Random Name($.post)</a>
 
 <script type="text/javascript">
     var url = "${createLink(controller: 'util',action: 'randomName')}"
@@ -40,6 +44,12 @@
     })
     jQuery("#showNameLink3").on('click', function () {
       jQuery.get( url,{isAllowed:true}, successCallback)
+    })
+    jQuery("#showNameLink4").on('click', function () {
+        jQuery("#name").load(url,{isAllowed:true});
+    })
+    jQuery("#showNameLink5").on('click', function () {
+        jQuery.post(url,{isAllowed:true}, successCallback);
     })
     function successCallback(data) {
         if (data.status == false) {
