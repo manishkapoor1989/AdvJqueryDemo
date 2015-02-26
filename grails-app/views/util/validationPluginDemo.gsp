@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <g:form name="userForm" controller="util" action="save" >
+    <g:form name="userForm">
            <div><p>Name</p><g:textField name="name" id="name"/></div><br/>
            <div><p>Age</p><g:textField name="age" id="age"/></div><br/>
            <div><p>Salary</p><g:textField name="salary" id="salary"/></div><br/>
@@ -48,6 +48,14 @@
                     required:"Please anter your salary.",
                     digits:"Please enter valid salary."
                 }
+            },
+            submitHandler: function () {
+                $.ajax({
+                    url: "${createLink(controller: "util", action: "createUser")}",
+                    data: $('#userForm').serialize()
+                }).done(function (data) {
+                            alert('Submitted.')
+                });
             }
         });
 

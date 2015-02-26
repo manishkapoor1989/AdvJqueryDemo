@@ -46,4 +46,9 @@ class UtilController {
             render([status: false, errorMessage:errorMessage] as JSON)
         }
     }
+
+    def createUser(){
+        log.info("Params: ${params}")
+         render([status: true] as JSON)
+    }
 }
